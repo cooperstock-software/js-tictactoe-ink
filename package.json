@@ -1,0 +1,18 @@
+{
+  "name": "tictactoe-ink",
+  "version": "1.0.0",
+  "description": "Terminal version of the Delphi tic-tac-toe program, drawn with Ink",
+  "type": "module",
+  "main": "tictactoe.js",
+  "scripts": {
+    "start": "node tictactoe.js",
+    "test": "node test/game.test.mjs && node test/view.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ink": "^5.0.0",
+    "react": "^18.3.1"
+  }
+}
